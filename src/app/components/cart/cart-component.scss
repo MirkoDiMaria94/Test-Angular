@@ -1,0 +1,19 @@
+.table-responsive {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.icon-action {
+    font-size: 24px;
+    cursor: pointer;
+    color: #dc3545;
+    transition: color 0.2s;
+}
+
+.icon-action:hover {
+    color: #a71d2a;
+}
+
+.cart-total {
+    margin-top: 20px;
+}

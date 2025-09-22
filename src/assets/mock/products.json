@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "Mountain Bike XTR",
+    "price": 899,
+    "image": "mountain-bike-xtr.jpg",
+    "shortDesc": "Mountain bike robusta con telaio in alluminio e 21 velocità"
+  },
+  {
+    "id": 2,
+    "name": "City Bike Classic",
+    "price": 399,
+    "image": "city-bike-classic.jpg",
+    "shortDesc": "Bici da città elegante e cambio a 7 velocità"
+  },
+  {
+    "id": 3,
+    "name": "E-Bike Speedster",
+    "price": 1499,
+    "image": "ebike-speedster.jpg",
+    "shortDesc": "Bici elettrica con autonomia fino a 80 km e assistenza alla pedalata"
+  },
+  {
+    "id": 4,
+    "name": "Road Bike Aero",
+    "price": 1099,
+    "image": "road-bike-aero.jpg",
+    "shortDesc": "Bici da corsa leggera in carbonio, perfetta per performance su strada"
+  },
+  {
+    "id": 5,
+    "name": "BMX Freestyle",
+    "price": 299,
+    "image": "bmx-freestyle.jpg",
+    "shortDesc": "BMX compatta per acrobazie e salti in skatepark"
+  },
+  {
+    "id": 6,
+    "name": "Hybrid Bike Explorer",
+    "price": 599,
+    "image": "hybrid-bike-explorer.jpg",
+    "shortDesc": "Bici ibrida versatile, adatta sia alla città che ai percorsi leggeri off-road"
+  },
+  {
+    "id": 7,
+    "name": "Kids Bike Fun",
+    "price": 149,
+    "image": "kids-bike-fun.jpg",
+    "shortDesc": "Bicicletta per bambini 20'', con rotelle rimovibili"
+  },
+  {
+    "id": 8,
+    "name": "Trekking Bike Adventure",
+    "price": 749,
+    "image": "trekking-bike.jpg",
+    "shortDesc": "Bici da trekking comoda e resistente, ideale per lunghe escursioni su strada e sterrato"
+  }
+]

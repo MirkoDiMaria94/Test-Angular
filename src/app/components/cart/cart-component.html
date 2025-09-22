@@ -1,0 +1,37 @@
+<!--CART-->
+<div class="table-responsive">
+    <nz-table [nzBordered]="true" [nzShowPagination]="false" [nzData]="(cart$ | async) ?? []">
+        <thead>
+            <tr>
+                <th style="min-width:60px;"></th>
+                <th style="min-width:120px;">Nome</th>
+                <th style="min-width:80px;">Prezzo</th>
+                <th style="min-width:80px;">Quantità</th>
+                <th style="min-width:80px;">Azioni</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @for(item of cart$ | async; track item)
+            {
+            <tr>
+                <td>
+                    <img [src]="'assets/images/' + item.image" alt="{{ item.name }}"
+                        style="height:50px; width:auto; border-radius:4px;">
+                </td>
+                <td>{{ item.name }}</td>
+                <td>{{ item.price }}€</td>
+                <td>{{ item.quantity }}</td>
+                <td>
+                    <fa-icon [icon]="faTrash" class="icon-action text-danger" (click)="removeFromCart(item.id)">
+                    </fa-icon>
+                </td>
+            </tr>
+            }
+        </tbody>
+    </nz-table>
+</div>
+
+<div class="cart-total mt-4 text-end">
+    <h3>Totale: {{ getTotal() }}€</h3>
+</div>

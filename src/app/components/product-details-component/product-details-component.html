@@ -1,0 +1,26 @@
+<!-- PRODUCT-DETAILS -->
+@if (product) {
+<nz-card class="product-details-card">
+    <nz-card-meta [nzTitle]="product.name" [nzDescription]="'Prezzo: ' + product.price + '€'"></nz-card-meta>
+
+    <img nz-card-cover [src]="'assets/images/' + product.image" alt="{{ product.name }}" class="product-image" />
+
+    <p class="description">{{ product.description }}</p>
+
+    <fa-icon [icon]="faShoppingCart" class="icon-action" (click)="addToCart(product)">
+    </fa-icon>
+
+    <nz-divider>Recensioni</nz-divider>
+
+    <nz-list [nzBordered]="true">
+        @for (review of product.reviews; track review) {
+        <nz-list-item class="review-item">
+            <fa-icon [icon]="faUser" class="review-icon"></fa-icon>
+            <div class="review-text">
+                <strong>{{ review.author }}:</strong> {{ review.comment }}
+            </div>
+        </nz-list-item>
+        }
+    </nz-list>
+</nz-card>
+}

@@ -1,0 +1,23 @@
+.navbar .badge {
+    font-size: 0.75rem;
+    padding: 0.25em 0.5em;
+}
+
+.navbar .nav-link fa-icon {
+    margin-right: 6px;
+}
+
+.logo-container {
+    .logo-img {
+        height: auto;
+        width: auto;
+        max-height: 100px;
+        transition: height 0.3s;
+    }
+}
+
+@media (max-width: 768px) {
+    .logo-container .logo-img {
+        height: 70px;
+    }
+}

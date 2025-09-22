@@ -1,0 +1,150 @@
+[
+  {
+    "id": 1,
+    "name": "Mountain Bike XTR",
+    "price": 899,
+    "image": "mountain-bike-xtr.jpg",
+    "shortDesc": "Mountain bike robusta con telaio in alluminio e 21 velocità",
+    "longDesc": "La Mountain Bike XTR è progettata per affrontare i percorsi più impegnativi. Telaio in alluminio leggero e resistente, 21 velocità per adattarsi a ogni terreno, sospensioni anteriori e freni a disco per massima sicurezza. Ideale per escursioni, trail e avventure off-road.",
+    "reviews": [
+      {
+        "author": "Marco",
+        "comment": "Ottima bici, stabile sui sentieri e precisa negli sterrati."
+      },
+      {
+        "author": "Sara",
+        "comment": "Telaio leggero e resistente, cambio facile da usare."
+      },
+      {
+        "author": "Luca",
+        "comment": "Perfetta per le escursioni in montagna, la consiglio!"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "City Bike Classic",
+    "price": 399,
+    "image": "city-bike-classic.jpg",
+    "shortDesc": "Bici da città elegante e cambio a 7 velocità",
+    "longDesc": "La City Bike Classic è perfetta per spostamenti urbani comodi e veloci. Telaio leggero, cambio a 7 velocità e design elegante. Adatta per percorsi quotidiani e tragitti in città.",
+    "reviews": [
+      {
+        "author": "Elena",
+        "comment": "Molto comoda e maneggevole, ideale per la città."
+      },
+      {
+        "author": "Giovanni",
+        "comment": "Design elegante e cambio facile da usare."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "E-Bike Speedster",
+    "price": 1499,
+    "image": "ebike-speedster.jpg",
+    "shortDesc": "Bici elettrica con autonomia fino a 80 km e assistenza alla pedalata",
+    "longDesc": "La E-Bike Speedster è una bici elettrica potente con batteria a lunga durata. Autonomia fino a 80 km e assistenza alla pedalata per percorsi più lunghi senza fatica. Ideale per spostamenti urbani e avventure all'aperto.",
+    "reviews": [
+      {
+        "author": "Alice",
+        "comment": "Perfetta per lunghe distanze, batteria molto potente."
+      },
+      {
+        "author": "Matteo",
+        "comment": "Assistenza alla pedalata molto reattiva e comoda."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Road Bike Aero",
+    "price": 1099,
+    "image": "road-bike-aero.jpg",
+    "shortDesc": "Bici da corsa leggera in carbonio, perfetta per performance su strada",
+    "longDesc": "La Road Bike Aero è progettata per gli amanti della velocità su strada. Telaio in carbonio leggero, aerodinamica e freni performanti. Ideale per gare e allenamenti su percorsi asfaltati.",
+    "reviews": [
+      {
+        "author": "Paolo",
+        "comment": "Molto veloce e leggera, perfetta per gare su strada."
+      },
+      {
+        "author": "Francesca",
+        "comment": "Telaio solido e design aerodinamico, ottima per allenamenti."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "BMX Freestyle",
+    "price": 299,
+    "image": "bmx-freestyle.jpg",
+    "shortDesc": "BMX compatta per acrobazie e salti in skatepark",
+    "longDesc": "La BMX Freestyle è progettata per trick, salti e acrobazie. Telaio compatto, ruote resistenti e maneggevolezza estrema. Ideale per skatepark e freestyle urbano.",
+    "reviews": [
+      {
+        "author": "Lorenzo",
+        "comment": "Perfetta per trick e freestyle, molto resistente."
+      },
+      {
+        "author": "Giulia",
+        "comment": "Maneggevole e divertente da usare nello skatepark."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Hybrid Bike Explorer",
+    "price": 599,
+    "image": "hybrid-bike-explorer.jpg",
+    "shortDesc": "Bici ibrida versatile, adatta sia alla città che ai percorsi leggeri off-road",
+    "longDesc": "La Hybrid Bike Explorer è ideale per chi cerca versatilità. Perfetta su strada e percorsi leggeri off-road. Telaio robusto, comoda da guidare e adatta a lunghe passeggiate.",
+    "reviews": [
+      {
+        "author": "Federico",
+        "comment": "Versatile e comoda, ottima sia per città che per sentieri."
+      },
+      {
+        "author": "Martina",
+        "comment": "Robusta e stabile, ideale per esplorazioni."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Kids Bike Fun",
+    "price": 149,
+    "image": "kids-bike-fun.jpg",
+    "shortDesc": "Bicicletta per bambini 20'', con rotelle rimovibili",
+    "longDesc": "La Kids Bike Fun è pensata per i più piccoli. Bicicletta sicura, leggera e facile da usare, con rotelle rimovibili per imparare a mantenere l’equilibrio.",
+    "reviews": [
+      {
+        "author": "Chiara",
+        "comment": "Mio figlio la adora, facile da montare e sicura."
+      },
+      {
+        "author": "Davide",
+        "comment": "Ottima bici per bambini, resistente e leggera."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Trekking Bike Adventure",
+    "price": 749,
+    "image": "trekking-bike.jpg",
+    "shortDesc": "Bici da trekking comoda e resistente, ideale per lunghe escursioni su strada e sterrato",
+    "longDesc": "La Trekking Bike Adventure è perfetta per lunghe escursioni. Comoda, resistente e stabile su ogni terreno. Adatta a percorsi misti su strada e sterrato per avventure all'aperto.",
+    "reviews": [
+      {
+        "author": "Antonio",
+        "comment": "Ottima per escursioni lunghe, molto comoda."
+      },
+      {
+        "author": "Lucia",
+        "comment": "Stabile e resistente, perfetta per trekking."
+      }
+    ]
+  }
+]

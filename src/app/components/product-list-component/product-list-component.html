@@ -1,0 +1,20 @@
+<!--PRODUCT-LIST-->
+<nz-row [nzGutter]="16">
+    @for (product of products; track product) {
+    <nz-col [nzXs]="24" [nzSm]="12" [nzMd]="8" [nzLg]="6" [nzXl]="6">
+        <nz-card [nzCover]="coverTemplate" class="product-card">
+            <ng-template #coverTemplate>
+                <img alt="{{ product.name }}" [src]="'assets/images/' + product.image" />
+            </ng-template>
+
+            <nz-card-meta [nzTitle]="product.name" [nzDescription]="'Prezzo: ' + product.price + '€'">
+            </nz-card-meta>
+
+            <div class="card-actions flex gap-2 mt-4">
+                <fa-icon [icon]="faShoppingCart" class="icon-action" (click)="addToCart(product)"></fa-icon>
+                <fa-icon [icon]="faInfoCircle" class="icon-action" (click)="goToDetails(product.id)"></fa-icon>
+            </div>
+        </nz-card>
+    </nz-col>
+    }
+</nz-row>

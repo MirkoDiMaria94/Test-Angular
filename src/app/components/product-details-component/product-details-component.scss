@@ -1,0 +1,47 @@
+.cart-total {
+  margin-top: 20px;
+  text-align: right;
+  font-weight: bold;
+}
+
+.icon-action {
+  font-size: 28px;
+  cursor: pointer;
+  color: #1890ff;
+  transition: color 0.2s;
+  margin-bottom: 16px;
+}
+
+.icon-action:hover {
+  color: #40a9ff;
+}
+
+.nz-list-item .fa-icon {
+  color: #555;
+  margin-right: 8px;
+}
+
+.review-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.review-text {
+  flex: 1;
+}
+
+@media (max-width: 600px) {
+  .icon-action {
+    font-size: 24px;
+    margin-bottom: 12px;
+  }
+
+  .cart-total {
+    text-align: center;
+  }
+
+  .review-text {
+    font-size: 14px;
+  }
+}

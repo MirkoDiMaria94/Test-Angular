@@ -1,0 +1,34 @@
+.card-actions {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product-card {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  margin: 2%;
+}
+
+.product-card nz-card-meta {
+  margin-top: 16px;
+}
+
+.icon-action {
+  font-size: 24px;
+  cursor: pointer;
+  color: #1890ff;
+  transition: color 0.2s;
+}
+
+.icon-action:hover {
+  color: #40a9ff;
+}
+
+.product-card img {
+  height: 200px;
+  object-fit: contain;
+  width: 100%;
+}
