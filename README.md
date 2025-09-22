@@ -8,6 +8,9 @@ Before running the project, make sure to install all dependencies by running:
 
 ```bash
 npm install
+```
+
+
 
 ## Development server
 
